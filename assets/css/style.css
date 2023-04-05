@@ -142,12 +142,12 @@ i {
 
     .product-image-section {
         width: 100%;
-        height: 85%;
         border: 2px dashed blue;
         position: relative;
     }
         .product-image-section > img {
-            object-fit: fill;
+            object-fit: cover;
+            width: 100%;
         }
 
     .product-visual {
@@ -163,7 +163,7 @@ i {
 
     /* Item Info Card */
     .item-info {
-        width: 100%;
+
         height: 15%;
         border: 2px dashed black;
     }
