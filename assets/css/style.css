@@ -160,6 +160,11 @@ i {
         top: 0;
         left: 0;
     }
+        /* Hover Changing Image */
+        .product-image-section:hover 
+        .product-visual {
+            visibility: hidden;
+        }
 
     /* Tags Card Section */
     .like-section {
