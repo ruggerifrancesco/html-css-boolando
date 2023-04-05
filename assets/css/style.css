@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Root Section for variables storage */
+:root {
+
+    /* General Colors */
+    --color-white: white;
+    --color-black: black;
+
+    /* Main Content Colors */
+    --header-bg-color: #ff6900;
+    --main-bg-color: #ffffff;
+    --footer-bg-color: #1a1a1a;
+
+    /* Tags Section */
+    --tag-discount-price: #ff0000;
+    --tag-sostenibility: #017f01;
+
+    /* Miscellaneus Section */
+    --tag-current-price: #ff0000;
+    --heart-color: #ee5151;
+    
+}
