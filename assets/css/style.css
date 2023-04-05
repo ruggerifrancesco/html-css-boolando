@@ -35,6 +35,10 @@ body {
     font-weight: 300;
 }
 
+img {
+    height: 500px;
+}
+
 ul {
     list-style: none;
 }
@@ -74,9 +78,6 @@ a {
     z-index: 10;
 }
 
-.nav-container {
-}
-
 .article-items-list,
 .user-call-to-action {
     height: 60px;
@@ -93,9 +94,14 @@ a {
     background-color: var(--color-white);
 }
 
+.product-row-container {
+    padding: 20px 5px;
+}
+
     /* Product Card */
     .product-item-card {
-        width: ;
+        height: 500px;
+        width: calc(100% / 3);
     }
 
     .product-image {
@@ -106,6 +112,7 @@ a {
     .product-image-hover {
         /* display: none; */
         position: absolute;
+        top: 0;
         left: 0;
 
     }
