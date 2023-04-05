@@ -71,7 +71,6 @@ a {
 /* Header Section */
 .header {
     background-color: var(--header-bg-color);
-    height: 100px;
     align-items: center;
     justify-content: center;
     position: sticky;
@@ -80,10 +79,13 @@ a {
     box-shadow: 5px 5px 10px #888888;
 }
 
+.nav-container {
+    padding: 1.3rem 0;
+}
+
 .gender-list-wrapper,
 .user-call-to-action {
-    height: 60px;
-    width: 20%;
+    flex: 1 1 20%;
 }
 
 .gender-list {
@@ -98,13 +100,13 @@ a {
     }
 
 .logo {
-    height: 60px;
-    width: 60%;
+    flex: 2 1 60%;
     justify-content: center;
     align-items: center;
 }
     .logo > img {
-        height: 100%;
+        height: 30px;
+        cursor: pointer;
     }
 
 .user-call-to-action {
