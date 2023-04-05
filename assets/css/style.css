@@ -216,10 +216,29 @@ i {
 
     /* Item Info Card */
     .item-info {
-
-        height: 15%;
-        border: 2px dashed black;
+        margin-top: 0.3rem;
     }
+        .brand-item {
+            font-size: 0.8rem;
+        }
+        .title-item {
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-weight: 700;
+        }
+        .item-current-price,
+        .item-old-price-tag {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        .item-current-price {
+            color: var(--tag-current-price);
+        }
+        .item-old-price-tag {
+            text-decoration: line-through;
+            text-decoration-thickness: 1.5px; 
+        }
 
 /* Footer Section */
 .footer {
