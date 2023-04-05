@@ -95,26 +95,27 @@ a {
 }
 
 .product-row-container {
-    padding: 20px 5px;
+    padding: 2rem 0.5rem 3rem 0.5rem;
+    gap: 1.8rem;
 }
 
     /* Product Card */
     .product-item-card {
         height: 500px;
         width: calc(100% / 3);
+        flex-direction: column;
     }
 
-    .product-image {
-        position: relative;
-        z-index: 2;
+    .product-image-section {
+        width: 100%;
+        height: 85%;
+        border: 2px dashed blue;
     }
 
-    .product-image-hover {
-        /* display: none; */
-        position: absolute;
-        top: 0;
-        left: 0;
-
+    .item-info {
+        width: 100%;
+        height: 15%;
+        border: 2px dashed black;
     }
 
 /* Footer Section */
