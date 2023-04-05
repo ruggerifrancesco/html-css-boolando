@@ -69,6 +69,12 @@ a {
     height: 100px;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-container {
 }
 
 .article-items-list,
@@ -83,7 +89,26 @@ a {
 }
 
 /* Main Content Section */
+.main {
+    background-color: var(--color-white);
+}
 
+    /* Product Card */
+    .product-item-card {
+        width: ;
+    }
+
+    .product-image {
+        position: relative;
+        z-index: 2;
+    }
+
+    .product-image-hover {
+        /* display: none; */
+        position: absolute;
+        left: 0;
+
+    }
 
 /* Footer Section */
 .footer {
