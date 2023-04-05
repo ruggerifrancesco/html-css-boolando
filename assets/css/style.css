@@ -185,6 +185,10 @@ i {
         .like-button > i {
             color: var(--color-black);
         }
+        /* Hover Changing Color */
+        .like-section:hover > span > i{
+            color: var(--heart-color);
+        }
 
     .tag-section {
         position: absolute;
