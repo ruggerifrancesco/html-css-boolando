@@ -68,10 +68,6 @@ i {
         width: 90%;
     }
 
-.border-placeholder {
-    border: 2px dashed red;
-}
-
 /* Header Section */
 .header {
     background-color: var(--header-bg-color);
