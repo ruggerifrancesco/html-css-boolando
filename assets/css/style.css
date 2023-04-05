@@ -185,6 +185,10 @@ i {
     .agency-list > li {
         gap: 0.5rem;
     }
+    .agency-list > li:hover {
+        color: var(--hover-list);
+        cursor: pointer;
+    }
 
 .social-list-wrapper {
     flex-direction: column;
@@ -201,6 +205,10 @@ i {
 }
     .social-list > i {
         font-size: 1.6rem;
+        cursor: pointer;
+    }
+    .social-list > i:hover {
+        color: var(--hover-list);
     }
 
 .article-infos-list,
