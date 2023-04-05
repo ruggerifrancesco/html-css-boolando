@@ -143,7 +143,6 @@ i {
 
     .product-image-section {
         width: 100%;
-        border: 2px dashed blue;
         position: relative;
     }
         .product-image-section > img {
@@ -163,12 +162,15 @@ i {
     }
 
     /* Tags Card Section */
-    .tag-discount {
-        display: inline-block;
+    .tag-section {
         position: absolute;
         z-index: 5;
         left: 0;
         bottom: 2rem;
+    }
+
+    .tag-discount {
+        display: inline-block;
         background-color: var(--tag-discount-price);
         color: var(--color-white);
         font-weight: 500;
@@ -178,10 +180,6 @@ i {
 
     .tag-sustainability{
         display: inline-block;
-        position: absolute;
-        z-index: 5;
-        left: 3.5rem;
-        bottom: 2rem;
         background-color: var(--tag-sostenibility);
         color: var(--color-white);
         font-weight: 500;
