@@ -167,20 +167,17 @@ i {
         z-index: 5;
         right: 0;
         top: 0.8rem;
+        width: 40px;
+        height: 40px;
+        background-color: var(--color-white);
     }
         .like-button {
-            display: inline-block;
-            width: 40px;
-            height: 40px;
             background-color: var(--color-white);
-            position: relative;
+            justify-content: center;
+            align-items: center;
         }
         .like-button > i {
             color: var(--color-black);
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
         }
 
     .tag-section {
