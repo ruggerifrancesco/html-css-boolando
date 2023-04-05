@@ -24,6 +24,7 @@
     /* Miscellaneus Section */
     --tag-current-price: #ff0000;
     --heart-color: #ee5151;
+    --hover-list: #fedcc4;
 
 }
 
@@ -76,18 +77,46 @@ a {
     position: sticky;
     top: 0;
     z-index: 10;
+    box-shadow: 5px 5px 10px #888888;
 }
 
-.article-items-list,
+.gender-list-wrapper,
 .user-call-to-action {
     height: 60px;
     width: 20%;
 }
 
+.gender-list {
+    color: var(--color-white);
+    align-items: center;
+    font-weight: 700;
+    gap: 0.8rem;
+}
+    .gender-list >li:hover {
+        color: var(--hover-list);
+        cursor: pointer;
+    }
+
 .logo {
     height: 60px;
     width: 60%;
+    justify-content: center;
+    align-items: center;
 }
+    .logo > img {
+        height: 100%;
+    }
+
+.user-call-to-action {
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--color-white);
+    gap: 0.8rem;
+}
+    .user-call-to-action > i:hover {
+        color: var(--hover-list);
+        cursor: pointer;
+    }
 
 /* Main Content Section */
 .main {
@@ -96,12 +125,12 @@ a {
 
 .product-row-container {
     padding: 2rem 0.5rem 3rem 0.5rem;
-    gap: 1.8rem;
+    gap: 1.5rem;
 }
 
     /* Product Card */
     .product-item-card {
-        height: 500px;
+        height: 600px;
         width: calc(100% / 3);
         flex-direction: column;
     }
