@@ -135,6 +135,7 @@ i {
 
     /* Product Card */
     .product-item-card {
+        /* TO-DO Remove it for later */
         height: 600px;
         width: calc(100% / 3);
         flex-direction: column;
@@ -166,12 +167,26 @@ i {
         display: inline-block;
         position: absolute;
         z-index: 5;
+        left: 0;
+        bottom: 2rem;
+        background-color: var(--tag-discount-price);
+        color: var(--color-white);
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+        font-size: 0.9rem;
     }
 
     .tag-sustainability{
         display: inline-block;
         position: absolute;
         z-index: 5;
+        left: 3.5rem;
+        bottom: 2rem;
+        background-color: var(--tag-sostenibility);
+        color: var(--color-white);
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+        font-size: 0.9rem;
     }
 
     /* Item Info Card */
