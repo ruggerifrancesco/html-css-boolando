@@ -93,4 +93,16 @@ a {
 .footer {
     background-color: var(--footer-bg-color);
     height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    justify-content: space-between;
+}
+
+.article-infos-list,
+.social-list {
+    height: 60px;
+    width: 30%;
 }
