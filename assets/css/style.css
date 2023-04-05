@@ -175,6 +175,7 @@ i {
             background-color: var(--color-white);
             justify-content: center;
             align-items: center;
+            height: 100%;
         }
         .like-button > i {
             color: var(--color-black);
