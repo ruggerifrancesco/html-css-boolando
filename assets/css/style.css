@@ -36,6 +36,11 @@ body {
     font-weight: 300;
 }
 
+/* This will trigger height more like a */
+/* resonsive part of the web site cards */
+
+/* Depends on what you like to see  */
+/* when the width will be shrinked */
 img {
     height: 500px;
 }
