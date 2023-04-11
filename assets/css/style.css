@@ -151,6 +151,7 @@ i {
     .product-image-section {
         width: 100%;
         position: relative;
+        cursor: pointer;
     }
         .product-image-section > img {
             object-fit: cover;
