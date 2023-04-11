@@ -289,11 +289,11 @@ i {
 .social-list {
     gap: 1rem;
 }
-    .social-list > i {
+    .social-list > a > i {
         font-size: 1.6rem;
         cursor: pointer;
     }
-    .social-list > i:hover {
+    .social-list > a > i:hover {
         color: var(--hover-list);
     }
 
