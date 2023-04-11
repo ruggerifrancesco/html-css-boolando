@@ -134,8 +134,9 @@ i {
 .product-row-container {
     gap: 1.5rem;
 }
+    /* Added more padding for position: fixed hack */
     .product-row-container:nth-child(1) {
-        padding: 3rem 0.5rem 0;
+        padding: 8rem 0.5rem 0;
     }
     .product-row-container:nth-child(2) {
         padding: 3rem 0.5rem;
