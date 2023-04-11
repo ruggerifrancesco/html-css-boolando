@@ -78,8 +78,13 @@ i {
     background-color: var(--header-bg-color);
     align-items: center;
     justify-content: center;
-    position: sticky;
+    position: fixed;
+    /* Rule for making position: fixed */
+    /* not to break and shrink */
     top: 0;
+    right: 0;
+    left: 0;
+
     z-index: 20;
     box-shadow: 5px 5px 10px #888888;
 }
