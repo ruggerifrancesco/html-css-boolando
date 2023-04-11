@@ -81,6 +81,7 @@ i {
 
 .nav-container {
     padding: 1.3rem 0;
+    align-items: center;
 }
 
 .gender-list-wrapper,
@@ -90,7 +91,6 @@ i {
 
 .gender-list {
     color: var(--color-white);
-    align-items: center;
     font-weight: 700;
     gap: 0.8rem;
 }
@@ -102,7 +102,6 @@ i {
 .logo {
     flex: 2 1 60%;
     justify-content: center;
-    align-items: center;
 }
     .logo > img {
         height: 30px;
@@ -110,7 +109,6 @@ i {
     }
 
 .user-call-to-action {
-    align-items: center;
     justify-content: flex-end;
     gap: 0.8rem;
 }
