@@ -135,8 +135,6 @@ i {
 
     /* Product Card */
     .product-item-card {
-        /* TO-DO Remove it for later */
-        height: 600px;
         width: calc(100% / 3);
         flex-direction: column;
     }
